@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap');
+body {
+  height: 100%;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  height: 100vh;
+  background-color: #fc5296;
+  background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%); 
+}
+
+.nav {
+	position: sticky;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+    top: 0;
+}
+.nav {
+	&__title {
+		margin: 0px 30px;
+	}
+	&__item {
+		display: inline-block;
+		margin: 0px 10px;
+    }
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+}
+
+.name-wrapper{
+    position: absolute;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myname{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 4px;
+    color:white;
+    z-index: 1;
+    h1{
+        font-family: 'Overpass', sans-serif;
+    }
+}
+
+.wave{
+    bottom: 0;
+    position: absolute;
+}
+
+.blob{
+}
