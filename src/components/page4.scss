@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap');
+
+.block{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height:100%;
+    margin: 10em 10em 10em 0;
+}
+.placeholder{
+    background-color: white;
+    width:60em;
+    border-radius: 1%;
+}
+h2{
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 4px;
+    color:rgb(50, 50, 71);
+    padding-top:2em;
+    text-align: center;
+
+}
+.page4{
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    background-color: #f9ea8f;
+    background-image: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%);
+}
