@@ -1,5 +1,5 @@
 import "./page4.scss";
-//import Carousel from "./carousel.js";
+import SlideShow from "./slideShow.js"
 
 function Page4() {
   return (
@@ -8,7 +8,7 @@ function Page4() {
         <div className="placeholder">
           <h2> My Artwork</h2>
           <div className="carousel">
-            {/* <Carousel /> */}
+            <SlideShow /> 
           </div>
         </div>
       </div>

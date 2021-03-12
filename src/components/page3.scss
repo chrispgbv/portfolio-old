@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap");
+
+.page3 {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+
+.placeholderPage3 {
+  background-color: white;
+  width: 60em;
+  border-radius: 1%;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  h2 {
+    font-family: "Overpass", sans-serif;
+    letter-spacing: 4px;
+    color: rgb(50, 50, 71);
+    text-align: left;
+    margin-left: 2em;
+  }
+}
+
+.about{
+    height: 50vh;
+    width:50vw;
+}
+.meImg {
+  img {
+    border-radius: 1%;
+    position: absolute;
+  }
+  margin-left: 3em;
+  width: 50vw;
+  height: 50vh;
+  float: left;
+  position: absolute;
+  float: left;
+}
+
+.meText {
+  float: right;
+  width: 50vw;
+  p {
+    font-family: "Hind", sans-serif;
+    letter-spacing: 3px;
+  }
+}
+
+.moreMe{
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+    h3{
+        text-align: center;
+        font-family: "Overpass", sans-serif;
+        letter-spacing: 4px;
+        color: rgb(50, 50, 71);
+        margin-top: 2em;
+        margin-right: 4em;
+        margin-left: 2.5em;
+        white-space: 30em;
+    }
+}
+
+.description{
+    width:100vh;
+    display: flex;
+    font-family: "Overpass", sans-serif;
+    letter-spacing: 4px;
+    position: absolute;
+}
+

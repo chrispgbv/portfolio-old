@@ -1,7 +1,12 @@
 @import "react-alice-carousel/lib/scss/alice-carousel.scss";// for carousel
 
 .slider{
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
+  width: 100vh;
+  height: 50vw;
+  margin: 3em;
+}
+
+.slide-container{
+  height:100vh;
+  width:100vw;
 }

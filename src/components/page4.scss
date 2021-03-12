@@ -8,12 +8,15 @@
     width:100%;
     height:100%;
     margin: 10em 10em 10em 0;
+
 }
 .placeholder{
     background-color: white;
     width:60em;
     border-radius: 1%;
+    padding: 2em;
 }
+
 h2{
     font-family: 'Overpass', sans-serif;
     letter-spacing: 4px;
@@ -29,3 +32,18 @@ h2{
     background-color: #f9ea8f;
     background-image: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%);
 }
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
