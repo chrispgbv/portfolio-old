@@ -1,0 +1,97 @@
+.page2 {
+  display: block;
+  height: 100vh;
+  margin:20em;
+}
+
+.small-box {
+  background-color: #0cbaba;
+  border-radius: 25px;
+  width: 50px;
+  h3 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  h2 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+  }
+  
+}
+
+
+.sos {
+  display: flex;
+  p {
+    align-self: flex-end;
+    margin-left: 10px;
+    font-family: "Work Sans", sans-serif;
+  }
+}
+
+.pic {
+  display: flex;
+  align-items: center;
+  img {
+    border-radius: 50%;
+    margin-left: 50%;
+    width: 300px;
+    border: 20px solid #bae8e8;
+  }
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.row div {
+  width: 50%;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+.one {
+  align-items: center;
+}
+
+.two {
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.three {
+  img {
+    width: 300px;
+    margin-top: 100px;
+  }
+}
+
+.four {
+    margin-top: 100px;
+    width: 500px;
+  p {
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.5;
+    position:relative;
+  }
+  h3{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+
+  }
+}
+
+.arrow{
+    margin-top: -60px;
+}
