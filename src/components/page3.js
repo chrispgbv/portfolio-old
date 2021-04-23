@@ -12,7 +12,7 @@ function Page3() {
         {" "}
         <img
           className="proj"
-          src="https://www.flaticon.com/svg/vstatic/svg/3035/3035523.svg?token=exp=1618916334~hmac=81d0bc1faa1efd0e8fb7bea97c95b379"
+          src="https://www.flaticon.com/svg/vstatic/svg/3035/3035523.svg?token=exp=1619183210~hmac=2e15313c25c072167b38b681ffe176ad"
           alt="mail"
           width="200px"
         ></img>{" "}
@@ -29,7 +29,7 @@ function Page3() {
         {" "}
         <img
           className="proj"
-          src="https://www.flaticon.com/svg/vstatic/svg/4498/4498289.svg?token=exp=1618917219~hmac=c527639c4bdb0cd68e5a0aa8b2d40b5b"
+          src="https://www.flaticon.com/svg/vstatic/svg/4589/4589217.svg?token=exp=1619183248~hmac=80ab2d0859eda1662aa2228afff0a734"
           alt="mail"
           width="200px"
         ></img>{" "}
@@ -46,7 +46,7 @@ function Page3() {
         {" "}
         <img
           className="proj"
-          src="https://www.flaticon.com/svg/vstatic/svg/4500/4500307.svg?token=exp=1618916855~hmac=f050dae2185c237a0fd6a60da49b0b3c"
+          src="https://www.flaticon.com/svg/vstatic/svg/4394/4394562.svg?token=exp=1619183311~hmac=4cd5084c12d1e7009161e00e690925dd"
           alt="mail"
           width="200px"
         ></img>{" "}

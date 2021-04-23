@@ -16,7 +16,7 @@ function Page2() {
               {" "}
               <img
                 className="social-comp"
-                src="https://www.flaticon.com/svg/vstatic/svg/566/566056.svg?token=exp=1618923967~hmac=624bb163bbc992089bdff088dba41b1e"
+                src="https://www.flaticon.com/svg/vstatic/svg/893/893292.svg?token=exp=1619182581~hmac=bfe345a99252f9e7b30975522c95b3e7"
                 alt="linkedIn"
                 width="30px"
               ></img>{" "}
@@ -27,7 +27,7 @@ function Page2() {
               {" "}
               <img
                 className="social-comp"
-                src="https://www.flaticon.com/svg/vstatic/svg/61/61109.svg?token=exp=1618923900~hmac=9adc7e86e9c8938edc620be4f40207cd"
+                src="https://www.flaticon.com/svg/vstatic/svg/1383/1383262.svg?token=exp=1619182622~hmac=0e552310d8d9194838c419a5c7603caf"
                 alt="linkedIn"
                 width="30px"
               ></img>{" "}
@@ -37,7 +37,7 @@ function Page2() {
             <div className="sos">
               <img
                 className="social-comp"
-                src="https://www.flaticon.com/svg/vstatic/svg/61/61164.svg?token=exp=1618923932~hmac=3729b4237e27dd9b81a9f1e334b9998a"
+                src="https://www.flaticon.com/svg/vstatic/svg/2111/2111421.svg?token=exp=1619182647~hmac=aed55ff4aeba6c70c175a97a836a6ffe"
                 alt="instagram"
                 width="30px"
               ></img>{" "}
@@ -47,7 +47,7 @@ function Page2() {
             <div className="sos">
               <img
                 className="social-comp"
-                src="https://www.flaticon.com/svg/vstatic/svg/61/61121.svg?token=exp=1618923865~hmac=de07b586ce7a6adc07b8edf05a5a80db"
+                src="https://www.flaticon.com/svg/vstatic/svg/3529/3529895.svg?token=exp=1619182454~hmac=1ac7c37e0f334910458e80aaeb964323"
                 alt="Position"
                 width="30px"
               ></img>{" "}
