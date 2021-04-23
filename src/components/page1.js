@@ -23,7 +23,7 @@ function Page1() {
       </header>
       <div className="main-one">
         <div>
-          <h1>Hi, I'm Chritsine</h1>
+          <h1>Hi, I'm Christine</h1>
           <p> and welcome to my portfolio </p>
         </div>
         <section id="section05" class="demo">

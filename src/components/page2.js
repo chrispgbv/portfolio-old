@@ -11,12 +11,14 @@ function Page2() {
           <h2> Christine Garcia Benito Valkner</h2>
 
           <div className="socials">
-            <div className="sos">
+
+          <div className="sos">
+              {" "}
               <img
                 className="social-comp"
-                src="https://www.flaticon.com/svg/vstatic/svg/37/37572.svg?token=exp=1618494354~hmac=d8d4d2f308abeb7d5e9957c1c5ef0902"
-                alt="mail"
-                width="20px"
+                src="https://www.flaticon.com/svg/vstatic/svg/566/566056.svg?token=exp=1618923967~hmac=624bb163bbc992089bdff088dba41b1e"
+                alt="linkedIn"
+                width="30px"
               ></img>{" "}
               <p> Mail</p>
             </div>
@@ -25,9 +27,9 @@ function Page2() {
               {" "}
               <img
                 className="social-comp"
-                src="https://www.flaticon.com/svg/vstatic/svg/1384/1384088.svg?token=exp=1618495550~hmac=e8e5d34384e9f6d695452061278672de"
+                src="https://www.flaticon.com/svg/vstatic/svg/61/61109.svg?token=exp=1618923900~hmac=9adc7e86e9c8938edc620be4f40207cd"
                 alt="linkedIn"
-                width="20px"
+                width="30px"
               ></img>{" "}
               <p> LinkedIn</p>
             </div>
@@ -35,9 +37,9 @@ function Page2() {
             <div className="sos">
               <img
                 className="social-comp"
-                src="https://www.flaticon.com/svg/vstatic/svg/87/87390.svg?token=exp=1618495354~hmac=fba94944c7396c6cae38c94e5caf1544"
+                src="https://www.flaticon.com/svg/vstatic/svg/61/61164.svg?token=exp=1618923932~hmac=3729b4237e27dd9b81a9f1e334b9998a"
                 alt="instagram"
-                width="20px"
+                width="30px"
               ></img>{" "}
               <p> Instagram</p>
             </div>
@@ -45,9 +47,9 @@ function Page2() {
             <div className="sos">
               <img
                 className="social-comp"
-                src="https://www.flaticon.com/svg/vstatic/svg/0/619.svg?token=exp=1618495664~hmac=145e41e4ac859f59e6b3ff020c9bcd57"
+                src="https://www.flaticon.com/svg/vstatic/svg/61/61121.svg?token=exp=1618923865~hmac=de07b586ce7a6adc07b8edf05a5a80db"
                 alt="Position"
-                width="20px"
+                width="30px"
               ></img>{" "}
               <p> Stavanger, Norge </p>
             </div>
@@ -69,8 +71,9 @@ function Page2() {
         <div class="four">
           <h3> About me</h3>
             <p>
-            Hi, my name is Christine Garcia Benito Valkner. I have a bachelors in computer engineering from Stavanger University and work as adeveloper now for Profitbase. This fall I will be starting myvwenture into a more design orientet development and will be takingUX design part time as a student, while I work.
-          </p> 
+            Hi, my name is Christe and I'm a computer developer currently working at Profitbase in Stavanger. 
+            I have a bachelors degree in computer engineering from the University in Stavanger, and will be starting 
+            a new degree in Ux design this fall. I love working with front end development and want to expand my knowledge in design. </p> 
         </div>
       </div>
       <div className ="arrow">

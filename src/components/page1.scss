@@ -74,22 +74,23 @@ nav a:hover::before {
   align-items: center;
 }
 
-h1 {
-  font-family: "Old Standard TT", serif;
-  font-size: 5em;
-  background: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
-  background-color: #0cbaba;
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  font-weight: bold;
-  -webkit-font-smoothing: antialiased;
-  margin-top: -1em;
-}
+
 
 .main-one {
+  h1 {
+    font-family: "Old Standard TT", serif;
+    font-size: 5em;
+    background: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    background-color: #0cbaba;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    margin-top: -1em;
+  }
   p {
     float: right;
     font-size: 1.5em;

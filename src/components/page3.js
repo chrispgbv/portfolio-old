@@ -3,43 +3,59 @@ import "./page3.scss";
 function Page3() {
   return (
     <div className="page-projects">
-      <div classNamwe="marg"></div>
-      <div className="project-text">
-        <h2 className="proj-text">My Projects</h2>
+
+      <div className ="proj-head">
+        <h1> My Projects </h1>
+
       </div>
-      <div class="row">
-        <div class="column">
-          <div class="content">
-            <img src="https://cdn.shortpixel.ai/spai/w_300+q_lossy+ret_img+to_webp/https://nv7hd2wwy4735edk746gwrv1-wpengine.netdna-ssl.com/wp-content/uploads/design_thinking-1536x1536.jpg" alt="Mountains"></img>
-            <h3>My Work</h3>
-            <p>
-              Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus
-              necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor
-              sit amet, tempor prodesset eos no.
-            </p>
-          </div>
+      <div className="proj-ex">
+        {" "}
+        <img
+          className="proj"
+          src="https://www.flaticon.com/svg/vstatic/svg/3035/3035523.svg?token=exp=1618916334~hmac=81d0bc1faa1efd0e8fb7bea97c95b379"
+          alt="mail"
+          width="200px"
+        ></img>{" "}
+        <div className="proj-text">
+          <h2 className ="col-white" > Haart</h2>
+          <p className ="col-white">
+            {" "}
+            Bachelor project, created a library using JavaScript to create heart compressions for Laerdal Medical{" "}
+          </p>{" "}
         </div>
-        <div class="column">
-          <div class="content">
-            <img src="https://cdn.shortpixel.ai/spai/w_300+q_lossy+ret_img+to_webp/https://nv7hd2wwy4735edk746gwrv1-wpengine.netdna-ssl.com/wp-content/uploads/design_thinking-1536x1536.jpg" alt="Lights"></img>
-            <h3>My Work</h3>
-            <p>
-              Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus
-              necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor
-              sit amet, tempor prodesset eos no.
-            </p>
-          </div>
+      </div>
+
+      <div className="proj-ex">
+        {" "}
+        <img
+          className="proj"
+          src="https://www.flaticon.com/svg/vstatic/svg/4498/4498289.svg?token=exp=1618917219~hmac=c527639c4bdb0cd68e5a0aa8b2d40b5b"
+          alt="mail"
+          width="200px"
+        ></img>{" "}
+        <div className="proj-text">
+          <h2 className ="col-white"> Conexos</h2>
+          <p>
+            {" "}
+            A knitting app to cattagorize you rwork, knitting needls and yarn{" "}
+          </p>{" "}
         </div>
-        <div class="column">
-          <div class="content">
-            <img src="https://cdn.shortpixel.ai/spai/w_300+q_lossy+ret_img+to_webp/https://nv7hd2wwy4735edk746gwrv1-wpengine.netdna-ssl.com/wp-content/uploads/design_thinking-1536x1536.jpg" alt="Nature"></img>
-            <h3>My Work</h3>
-            <p>
-              Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus
-              necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor
-              sit amet, tempor prodesset eos no.
-            </p>
-          </div>
+      </div>
+
+      <div className="proj-ex">
+        {" "}
+        <img
+          className="proj"
+          src="https://www.flaticon.com/svg/vstatic/svg/4500/4500307.svg?token=exp=1618916855~hmac=f050dae2185c237a0fd6a60da49b0b3c"
+          alt="mail"
+          width="200px"
+        ></img>{" "}
+        <div className="proj-text">
+          <h2> Foodie</h2>
+          <p>
+            {" "}
+            A web app for fidning out what you can have for dinner{" "}
+          </p>{" "}
         </div>
       </div>
     </div>

@@ -2,6 +2,12 @@
   display: block;
   height: 100vh;
   margin:20em;
+
+  h2{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+
+  }
 }
 
 .small-box {
@@ -42,6 +48,7 @@
     margin-left: 50%;
     width: 300px;
     border: 20px solid #bae8e8;
+    background-color: blanchedalmond;
   }
 }
 
@@ -94,4 +101,11 @@
 
 .arrow{
     margin-top: -60px;
+    
+}
+
+.lang{
+  background-color: #0cbaba;
+  border-radius: 25px;
+  width: 50px;
 }

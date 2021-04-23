@@ -1,84 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
 .page-projects {
-    display: block;
-    height: 100vh;
-    background: linear-gradient(to bottom, #272643 0%,#272643 50%,#272643 50%,#f2f3f4 50%,#f2f3f4 100%); /* W3C */
+  display: block;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #272643 0%,
+    #272643 50%,
+    #272643 50%,
+    #f2f3f4 50%,
+    #f2f3f4 100%
+  ); /* W3C */
 }
 
-.marg{
-    padding-bottom: 40px;
-}
+.proj-ex {
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
 
-  .project-text{
-    h2{
-        margin-top: 20px;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 150;
-        font-size: 5em;
-        text-align: center;
-        font-weight: bold;
-        -webkit-font-smoothing: antialiased;
-        color:#e3f6f5;
-    }
-}
-
-.content{
-    img{
-        width: 250px;
-    }
-}
-
-
-/* Center website */
-.main {
-    max-width: 1000px;
-    margin: auto;
+  img {
+    margin-bottom: 30px;
   }
-  
+
+  h2 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 0;
+  }
+
+  p {
+    font-family: "Work Sans", sans-serif;
+  }
+}
+
+.proj-head {
   h1 {
-    font-size: 50px;
-    word-break: break-all;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 5em;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 50;
+    color: white;
   }
-  
-  .row {
-    margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column */
-  .row,
-  .row > .column {
-    padding: 8px;
-  }
-  
-  /* Create four equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 25%;
-  }
-  
-  /* Clear floats after rows */ 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Content */
-  .content {
-    background-color: white;
-    padding: 10px;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
+}
+
+.proj-text {
+  align-items: center;
+  vertical-align: center;
+  margin: 30px;
+  width: 80%;
+}
+
+.col-white {
+  color: #f2f3f4;
+}
